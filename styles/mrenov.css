@@ -271,41 +271,44 @@ h3 {
   grid-row-start: 2;
 }
 .image2 {
-  grid-column-start: 9;
-  grid-column-end: 13;
+  grid-column-start: 1;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-start: 3;
 }
 .image3 {
   grid-row-start: 2;
   grid-row-start: 3;
-  grid-column-start: 5;
-  grid-column-end: 9;
+  grid-column-start: 4;
+  grid-column-end: 11;
 }
 .image4 {
   grid-row-start: 3;
   grid-row-start: 4;
-  grid-column-start: 9;
+  grid-column-start: 10;
   grid-column-end: 13;
+  
 }
 .image5 {
   grid-row-start: 3;
   grid-row-start: 4;
-  grid-column-start: 5;
-  grid-column-end: 9;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  
 }
 .video-logo {
   grid-row-start: 5;
   grid-row-end: 6;
   grid-column-start: 4;
-  grid-column-end: 9;
+  grid-column-end: 11;
+  overflow: hidden;
 }
 
 .business-card-img-recto {
     grid-row-start: 5;
     grid-row-start: 6;
     grid-column-start: 4;
-    grid-column-end: 12;
+    grid-column-end: 11;
 }
 .business-card-img-verso {
     grid-row-start: 5;
