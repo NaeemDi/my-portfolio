@@ -1,22 +1,17 @@
-'use strict'
+'use strict';
 
-// const body = document.body,
-// scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0];
-// height = scrollWrap.getBoundingClientRect().height - 1;
-// speed = 0.04;
+const cursor = document.querySelector('.cursor');
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+});
 
-// var offset = 0;
-
-// body.style.height = Math.floor(height) + "px";
-
-// function smoothScroll() {
-//     offset += (window.pageYOffset - offset) * speed;
-
-//     var scroll = "translateY(-" + offset + "px) translateZ(0)";
-//     scrollWrap.style.transform = scroll;
-
-//     callScrool = requestAnimationFrame(smoothScrool);
-
-// }
-
-// smoothScrool();
+const links = document.querySelectorAll('a, .project-wrapper');
+links.forEach(link => {
+  link.addEventListener('mouseover', () => {
+    cursor.classList.add('hovered');
+  });
+  link.addEventListener('mouseout', () => {
+    cursor.classList.remove('hovered');
+  });
+});
