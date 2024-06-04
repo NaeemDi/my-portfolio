@@ -342,7 +342,7 @@ footer {
 }
 
 h2 {
-  font-size: 8vw;
+  font-size: 4rem;
   font-weight: 600;
   grid-column-start: 1;
   grid-column-end: 4;
