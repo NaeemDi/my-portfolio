@@ -84,21 +84,21 @@ nav {
 }
 
 .cursor {
-  position: fixed;
-  width: 10px;
-  height: 10px;
-  background: #fbfbfb;
-  pointer-events: none;
-  transition: 0.1s;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  mix-blend-mode: difference;
-  z-index: 100000;
-}
-
-.cursor.hovered {
-  transform: scale(8);
-}
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: #fbfbfb;
+    pointer-events: none;
+    transition: 0.1s;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    z-index: 10000;
+  }
+  
+  .cursor.hovered {
+    transform: scale(8);
+  }
 
 .split-line-navigation {
   display: none;
@@ -185,7 +185,7 @@ nav {
 .img-background {
   width: 100%;
   height: 700px;
-  background-image: url("../ressources/images/Evolt.jpg");
+  background-image: url("../ressources/images/Gamaz/gamaz-image-top.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,7 +232,7 @@ hr {
 
 #step {
   display: grid;
-  grid-template-rows: repeat(3fr, 1fr);
+  grid-template-rows: repeat(6fr, 1fr);
   grid-template-columns: repeat(12, 1fr);
   column-gap: 16px;
   row-gap: 16px;
@@ -263,39 +263,58 @@ h3 {
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 140%;
-  margin-bottom: 46px;
 }
 .image1 {
   grid-column-start: 4;
-  grid-column-end: 7;
-}
-.image2 {
-  grid-column-start: 7;
-  grid-column-end: 10;
-}
-.image3 {
+  grid-column-end: 11;
   grid-row-start: 1;
   grid-row-start: 2;
-  grid-column-start: 10;
-  grid-column-end: 13;
 }
-.image4 {
+.image2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-start: 3;
+}
+.image3 {
   grid-row-start: 2;
   grid-row-start: 3;
   grid-column-start: 4;
-  grid-column-end: 7;
+  grid-column-end: 11;
 }
-.image5 {
-  grid-row-start: 2;
+.image4 {
   grid-row-start: 3;
-  grid-column-start: 7;
-  grid-column-end: 10;
-}
-.image6 {
-  grid-row-start: 2;
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-column-start: 10;
   grid-column-end: 13;
+  
+}
+.image5 {
+  grid-row-start: 3;
+  grid-row-start: 4;
+  grid-column-start: 4;
+  grid-column-end: 10;
+  
+}
+.video-logo {
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 11;
+  overflow: hidden;
+}
+
+.business-card-img-recto {
+    grid-row-start: 5;
+    grid-row-start: 6;
+    grid-column-start: 4;
+    grid-column-end: 11;
+}
+.business-card-img-verso {
+    grid-row-start: 5;
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 img {
