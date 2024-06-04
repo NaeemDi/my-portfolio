@@ -513,7 +513,7 @@ RESPONSIVE
     width: 100%;
     font-family: "Inter tight", sans-serif;
     background-color: #fbfbfb;
-    padding: 20px 30px;
+    padding: 20px 16px;
   }
 
   nav {
@@ -691,7 +691,7 @@ RESPONSIVE
   }
 
   .content > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 150%;
     grid-row-start: 3;
