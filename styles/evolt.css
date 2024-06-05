@@ -658,7 +658,7 @@ RESPONSIVE
 
 #step  {
     display: grid;
-    grid-template-rows: repeat(4fr, 1fr);
+    grid-template-rows: repeat(5fr, 1fr);
     grid-template-columns: repeat(4, 1fr);
     column-gap: 16px;
     row-gap: 16px;
@@ -696,25 +696,45 @@ RESPONSIVE
     line-height: 150%;
     grid-row-start: 3;
     grid-row-end: 4;
+    margin-bottom: 16px;
   }
   .image1 {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
   }
   .image2 {
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 5;  
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
   }
   .image3 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 6;
+  }
+
+  .image4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-start: 7;
+  }
+  .image5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-start: 8;
+  }
+  .image6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:8;
+    grid-row-start: 9;
   }
   
   img {
@@ -811,6 +831,11 @@ a > img {
   grid-row-start: 2;
   grid-row-end: 3;
 }
+.conclusion > p {
+  font-size: 1rem;
+} 
+
+
 .summary {
   grid-column-start: 1;
   grid-column-end: 5;
