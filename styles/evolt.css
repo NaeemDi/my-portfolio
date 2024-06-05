@@ -522,6 +522,11 @@ RESPONSIVE
     height: 20px;
   }
 
+.cursor {
+  display: none;
+}
+
+
   .header-nav {
     width: 100%;
     display: grid;
@@ -787,14 +792,112 @@ img {
   grid-column-end: 3;
 }
 
+/* *********** section conclusion ********* */
+
+#project-conclusion {
+  display: grid;
+  grid-template-rows: repeat(2fr, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.conclusion {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.conclusion > p {
+  font-size: 1rem;
+} 
 
 
+.summary {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
 
+/* SECTION PROJECTS SELECTED  */
+
+#projects {
+  display: flex;
+  flex-direction: column; 
+}
+
+.other-projects {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.other-projects > h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.project-link {
+  color: #141412;
+  display: block;
+  position: relative;
+}
+
+.project-container {
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px 0px;
+  column-gap: 16px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  overflow: hidden;
+  z-index: 2;
+}
+
+a > img {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.project-name {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.project-type {
+  text-align: right;
+  font-weight: 300;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size: 0.9rem;
+}
+.project-year {
+  display: none;
+}
+
+.project-image {
+  width: 10px;
+  z-index: -1;
+}
+
+.project-wrapper:hover .project-image {
+  visibility: hidden;
 }
 
 
 
 
+
+}
 
 
 @media (min-width: 481px) and (max-width: 768px)  {
