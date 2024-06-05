@@ -546,14 +546,14 @@ RESPONSIVE
   }
 
   .portfolio > p {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
   .logo > img {
     width: 24px;
   }
 
   .logo > p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .logo-link {
     text-decoration: none;
@@ -600,7 +600,18 @@ RESPONSIVE
   }
   
   .name-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 20px;
+  }
+
+
+  .name-project {
     grid-column: span 1;
+    grid-row: span 1;
   }
 
     .name-project > h1 {
