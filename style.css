@@ -208,7 +208,7 @@ a > img {
   position: absolute;
   align-items: center;
   top: -200%;
-  left: 75%;
+  left: 74%;
   width: 400px; /* Définissez la largeur de l'image selon vos besoins */
   height: auto; /* Maintient le ratio de l'image */
   opacity: 0; /* Rend l'image invisible initialement */
