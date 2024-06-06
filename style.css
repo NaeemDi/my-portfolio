@@ -737,7 +737,7 @@ footer {
 
 }
 
-
+/* Grands smartphones */
 @media (min-width: 481px) and (max-width: 768px)  {
 
   body {
@@ -1394,7 +1394,27 @@ footer {
 }
 
 
-
+/* Petits écrans d'ordinateurs portables */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .project-image {
+    position: absolute;
+    align-items: center;
+    top: -200%;
+    left: 50%;
+    width: 400px; /* Définissez la largeur de l'image selon vos besoins */
+    height: auto; /* Maintient le ratio de l'image */
+    opacity: 0; /* Rend l'image invisible initialement */
+    transition: opacity 0.3s ease; /* Transition pour l'effet de fondu */
+    pointer-events: none; /* Empêche l'image de bloquer le lien sous-jacent */
+    z-index: 3;
+  }
+  
+  .project-wrapper:hover .project-image {
+    opacity: 1;
+    -webkit-animation: fade-in-bottom 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+    animation: fade-in-bottom 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+  }
+}
 
 
 
