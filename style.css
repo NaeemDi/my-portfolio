@@ -370,6 +370,13 @@ footer {
   color: #000000;
 }
 
+
+
+.link-item > p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .link-item {
   padding: 16px 0px;
 }
