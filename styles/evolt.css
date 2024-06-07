@@ -228,6 +228,14 @@ hr {
   border: none;
 }
 
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-bottom: 30px;
+}
+
 /* *********** PROJECT SECTION ********** */
 
 #step {
