@@ -300,12 +300,26 @@ nav {
     grid-column-start: 4;
     grid-column-end: 12;
   }
+
+  .image5 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajouté pour s'assurer que la vidéo occupe tout l'espace */
+  }
+
   .image6 {
     grid-row-start: 7;
     grid-row-end: 8;
     grid-column-start: 4;
     grid-column-end: 12;
   }
+
+  .image6 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajouté pour s'assurer que la vidéo occupe tout l'espace */
+  }
+
   .image7 {
     grid-row-start: 8;
     grid-row-end: 9;
