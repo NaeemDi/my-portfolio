@@ -15,3 +15,8 @@ links.forEach(link => {
     cursor.classList.remove('hovered');
   });
 });
+
+
+document.oncontextmenu = function() {
+  return false;
+}
