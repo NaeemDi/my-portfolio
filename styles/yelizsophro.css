@@ -1307,23 +1307,7 @@ h3 {
   grid-row-end: 10;
 }
 
-.list {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 140%;
-  padding-left: 16px;
-  padding-right:16px;
-}
 
-li {
-  margin-bottom: 16px;
-}
-
-#note {
-  font-size: 1rem;
-  font-weight: 300;
-  font-style: italic;
-}
 
 /* *********** section conclusion ********* */
 
